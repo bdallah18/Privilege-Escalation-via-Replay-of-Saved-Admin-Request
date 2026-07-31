@@ -1,2 +1,9 @@
-# Privilege-Escalation-via-Replay-of-Saved-Admin-Request
-Real-world Penetration Testing and Vulnerability Assessment reports highlighting Web Application Security &amp; API/GraphQL Flaws.
+# Privilege Escalation via Replay of Saved Admin Request
+
+## Overview
+An access control vulnerability (Privilege Escalation / IDOR) in GraphQL mutations allowing downgraded users to retain administrative capabilities through replaying authorized requests.
+
+## Key Concepts
+- **Vulnerability Type:** Broken Access Control (Privilege Escalation)
+- **Protocol / API:** GraphQL Mutation
+- **Impact:** Critical - Unauthorized admin user creation & persistence
